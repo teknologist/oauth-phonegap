@@ -1,6 +1,8 @@
 OAuth.io Cordova/Phonegap SDK
 =======================
 
+*  This project was forked to remove the ugly browser toolbar.
+
 This is the Cordova/Phonegap SDK for [OAuth.io](https://oauth.io). OAuth.io allows you to integrate **100+ providers** really easily in your web app, without worrying about each provider's OAuth specific implementation.
 
 Installation
@@ -19,7 +21,7 @@ Getting the SDK
 Run the following command in your project directory. If you are using Phonegap, use the `phonegap` command. If you are using Cordova, use the `cordova` command.
 
 ```sh
-$ cordova plugin add https://github.com/oauth-io/oauth-phonegap
+$ cordova plugin add https://github.com/teknologist/oauth-phonegap
 ```
 
 Whitelisting API URLs
